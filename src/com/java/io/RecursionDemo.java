@@ -12,7 +12,7 @@ import java.io.File;
 public class RecursionDemo {
 
     public static void main(String[] args) {
-        File file = new File("D:\\");
+        File file = new File("C:\\Users\\Aaron\\Desktop\\Test\\aaa");
         File[] files = file.listFiles();
         printFileName(file);
     }
